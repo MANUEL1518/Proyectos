@@ -19,8 +19,12 @@
 			margin: 20px auto;
 			border-bottom: 2px #fff solid;
 		}
-		a{color: #3333ee;}
-		a:hover{color: #ff0000;}
+		a{
+			color: #3333ee;
+		}
+		a:hover{
+			color: #ff0000;
+		}
 		.files{
 			width: 60%;
 			padding: 10px;
@@ -31,7 +35,7 @@
 	</style>
 </head>
 <body>
-	<h1>Aqui tenemos los Sinfony Proyects</h1>
+	<h1>Aqui tenemos los Proyectos</h1>
 	<div class="files">
 	<?php
 	$directorio = opendir(".");
